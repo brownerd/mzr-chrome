@@ -1,0 +1,20 @@
+.cpl__box {
+  background-color: black;
+  border: none;
+  color: #0f0;
+  font-family: 'Trebuchet MS';
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 20px;
+  position: absolute;
+  transition: all .05s ease-in;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  will-change: top, left, opacity;
+}
+::selection {
+  background-color: #0f0;
+  color: black;
+}
