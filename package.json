@@ -18,8 +18,9 @@
     "dist:js": "terser ./src/index.js --compress --mangle --output ./dist/index.js",
     "dist:html": "html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --minify-css true --minify-js true ./src/index.html > ./dist/index.html"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["typography", "chrome-extension"],
+  "author": "Brownerd",
+  "repository": "https://github.com/brownerd/mzr-chrome",
   "license": "ISC",
   "devDependencies": {
     "parcel-bundler": "^1.11.0",
